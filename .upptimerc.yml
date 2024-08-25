@@ -1,36 +1,193 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: windstatus # Your GitHub organization or username, where this repository lives
+repo: Control-D-DNS-status-uptime-monitor # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
+  - name: AMS - API
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=AMS&status=api
+  - name: AMS - DNS
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=AMS&status=dns
+  - name: AMS - Proxy
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=AMS&status=pxy
+  - name: BMA - API
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=BMA&status=api
+  - name: BMA - DNS
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=BMA&status=dns
+  - name: CDG - API
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=CDG&status=api
+  - name: CDG - DNS
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=CDG&status=dns
+  - name: CDG - Proxy
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=CDG&status=pxy
+  - name: CGH - API
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=CGH&status=api
+  - name: CGH - DNS
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=CGH&status=dns
+  - name: CGH - Proxy
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=CGH&status=pxy
+  - name: CHI - API
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=CHI&status=api
+  - name: CHI - DNS
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=CHI&status=dns
+  - name: DAL - API
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=DAL&status=api
+  - name: DAL - DNS
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=DAL&status=dns
+  - name: DEN - API
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=DEN&status=api
+  - name: DEN - DNS
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=DEN&status=dns
+  - name: DXB - API
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=DXB&status=api
+  - name: DXB - DNS
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=DXB&status=dns
+  - name: EZE - API
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=EZE&status=api
+  - name: EZE - DNS
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=EZE&status=dns
+  - name: FRA - API
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=FRA&status=api
+  - name: FRA - DNS
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=FRA&status=dns
+  - name: FRA - Proxy
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=FRA&status=pxy
+  - name: HKG - API
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=HKG&status=api
+  - name: HKG - DNS
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=HKG&status=dns
+  - name: IAD - API
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=IAD&status=api
+  - name: IAD - DNS
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=IAD&status=dns
+  - name: IST - API
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=IST&status=api
+  - name: IST - DNS
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=IST&status=dns
+  - name: JFK - API
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=JFK&status=api
+  - name: JFK - DNS
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=JFK&status=dns
+  - name: JFK - Proxy
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=JFK&status=pxy
+  - name: JNB - API
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=JNB&status=api
+  - name: JNB - DNS
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=JNB&status=dns
+  - name: JNB - Proxy
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=JNB&status=pxy
+  - name: LAX - API
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=LAX&status=api
+  - name: LAX - DNS
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=LAX&status=dns
+  - name: LAX - Proxy
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=LAX&status=pxy
+  - name: LHR - API
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=LHR&status=api
+  - name: LHR - DNS
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=LHR&status=dns
+  - name: LHR - Proxy
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=LHR&status=pxy
+  - name: LIM - API
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=LIM&status=api
+  - name: LIM - DNS
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=LIM&status=dns
+  - name: MAD - API
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=MAD&status=api
+  - name: MAD - DNS
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=MAD&status=dns
+  - name: MAN - API
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=MAN&status=api
+  - name: MAN - DNS
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=MAN&status=dns
+  - name: MCI - API
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=MCI&status=api
+  - name: MCI - DNS
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=MCI&status=dns
+  - name: MIA - API
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=MIA&status=api
+  - name: MIA - DNS
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=MIA&status=dns
+  - name: MIA - Proxy
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=MIA&status=pxy
+  - name: NRT - API
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=NRT&status=api
+  - name: NRT - DNS
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=NRT&status=dns
+  - name: NRT - Proxy
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=NRT&status=pxy
+  - name: OTP - API
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=OTP&status=api
+  - name: OTP - DNS
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=OTP&status=dns
+  - name: PHX - API
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=PHX&status=api
+  - name: PHX - DNS
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=PHX&status=dns
+  - name: PNQ - API
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=PNQ&status=api
+  - name: PNQ - DNS
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=PNQ&status=dns
+  - name: RDU - API
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=RDU&status=api
+  - name: RDU - DNS
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=RDU&status=dns
+  - name: SCL - API
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=SCL&status=api
+  - name: SCL - DNS
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=SCL&status=dns
+  - name: SEA - API
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=SEA&status=api
+  - name: SEA - DNS
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=SEA&status=dns
+  - name: SJC - API
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=SJC&status=api
+  - name: SJC - DNS
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=SJC&status=dns
+  - name: SOF - API
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=SOF&status=api
+  - name: SOF - DNS
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=SOF&status=dns
+  - name: SOF - Proxy
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=SOF&status=pxy
+  - name: SYD - API
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=SYD&status=api
+  - name: SYD - DNS
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=SYD&status=dns
+  - name: SYD - Proxy
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=SYD&status=pxy
+  - name: WAW - API
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=WAW&status=api
+  - name: WAW - DNS
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=WAW&status=dns
+  - name: XSP - API
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=XSP&status=api
+  - name: XSP - DNS
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=XSP&status=dns
+  - name: XSP - Proxy
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=XSP&status=pxy
+  - name: YYZ - API
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=YYZ&status=api
+  - name: YYZ - DNS
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=YYZ&status=dns
+  - name: YYZ - Proxy
+    url: https://controld-network-api.ncprelief.eu.org?iata_code=YYZ&status=pxy
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
+  # cname: demo.upptime.js.org
+  baseUrl: /Control-D-DNS-status-uptime-monitor
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  name: Control-D Status Uptime Monitor
+  introTitle: "Real-time uptime monitor and tracker for **Control-D** server availability and outages"
+  introMessage: "The Control-D Uptime Monitor is a user-driven (unofficial) project that provides real-time and historical data on the availability of Control-D servers. Created to fill the transparency gap left by the absence of an official status page, this tool helps users quickly identify server outages, aiding in troubleshooting."
   navbar:
     - title: Status
       href: /
+    - title: Reddit
+      href: https://www.reddit.com/r/ControlD
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+workflowSchedule:
+  uptime: "*/5 * * * *"
