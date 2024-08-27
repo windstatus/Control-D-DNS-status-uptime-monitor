@@ -1,7 +1,7 @@
 url: https://controld-network-api.ncprelief.eu.org?iata_code=PNQ&status=api
-status: down
-code: 503
-responseTime: 83
-lastUpdated: 2024-08-27T18:38:00.864Z
+status: up
+code: 200
+responseTime: 137
+lastUpdated: 2024-08-27T18:51:21.074Z
 startTime: 2024-08-25T04:08:40.271Z
 generator: Upptime <https://github.com/upptime/upptime>
