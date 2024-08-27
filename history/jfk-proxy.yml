@@ -1,7 +1,7 @@
 url: https://controld-network-api.ncprelief.eu.org?iata_code=JFK&status=pxy
-status: down
-code: 404
-responseTime: 65
-lastUpdated: 2024-08-27T21:24:56.614Z
+status: up
+code: 200
+responseTime: 138
+lastUpdated: 2024-08-27T22:35:15.820Z
 startTime: 2024-08-25T04:08:30.113Z
 generator: Upptime <https://github.com/upptime/upptime>
