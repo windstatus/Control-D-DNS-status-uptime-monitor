@@ -58,19 +58,19 @@
     "url": "https://controld-network-api.ncprelief.eu.org?iata_code=BMA&status=api",
     "icon": "https://icons.duckduckgo.com/ip3/controld-network-api.ncprelief.eu.org.ico",
     "slug": "bma-api",
-    "status": "down",
-    "uptime": "99.99%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "99.99%",
-    "uptimeYear": "99.99%",
-    "time": 103,
-    "timeDay": 92,
-    "timeWeek": 103,
-    "timeMonth": 103,
-    "timeYear": 103,
+    "status": "up",
+    "uptime": "98.64%",
+    "uptimeDay": "97.02%",
+    "uptimeWeek": "98.64%",
+    "uptimeMonth": "98.64%",
+    "uptimeYear": "98.64%",
+    "time": 97,
+    "timeDay": 84,
+    "timeWeek": 97,
+    "timeMonth": 97,
+    "timeYear": 97,
     "dailyMinutesDown": {
-      "2024-08-27": 0
+      "2024-08-27": 43
     }
   },
   {
