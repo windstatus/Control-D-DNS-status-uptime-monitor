@@ -1086,19 +1086,19 @@
     "url": "https://controld-network-api.ncprelief.eu.org?iata_code=PNQ&status=api",
     "icon": "https://icons.duckduckgo.com/ip3/controld-network-api.ncprelief.eu.org.ico",
     "slug": "pnq-api",
-    "status": "down",
-    "uptime": "99.99%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "99.99%",
-    "uptimeYear": "99.99%",
-    "time": 93,
-    "timeDay": 93,
-    "timeWeek": 93,
-    "timeMonth": 93,
-    "timeYear": 93,
+    "status": "up",
+    "uptime": "99.64%",
+    "uptimeDay": "99.07%",
+    "uptimeWeek": "99.64%",
+    "uptimeMonth": "99.64%",
+    "uptimeYear": "99.64%",
+    "time": 100,
+    "timeDay": 108,
+    "timeWeek": 100,
+    "timeMonth": 100,
+    "timeYear": 100,
     "dailyMinutesDown": {
-      "2024-08-27": 0
+      "2024-08-27": 13
     }
   },
   {
