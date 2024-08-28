@@ -1,7 +1,7 @@
 url: https://controld-network-api.ncprelief.eu.org?iata_code=LIM&status=dns
-status: up
-code: 200
-responseTime: 138
-lastUpdated: 2024-08-27T23:26:53.673Z
+status: down
+code: 503
+responseTime: 148
+lastUpdated: 2024-08-28T14:31:55.944Z
 startTime: 2024-08-25T04:08:34.091Z
 generator: Upptime <https://github.com/upptime/upptime>
