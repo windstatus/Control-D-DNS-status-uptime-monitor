@@ -1,7 +1,7 @@
 url: https://controld-network-api.ncprelief.eu.org?iata_code=MCI&status=dns
-status: down
-code: 503
-responseTime: 115
-lastUpdated: 2024-08-30T20:43:05.757Z
+status: up
+code: 200
+responseTime: 69
+lastUpdated: 2024-08-30T20:56:27.091Z
 startTime: 2024-08-25T04:08:36.311Z
 generator: Upptime <https://github.com/upptime/upptime>
