@@ -1,7 +1,7 @@
 url: https://controld-network-api.ncprelief.eu.org?iata_code=YYZ&status=pxy
-status: down
-code: 404
-responseTime: 40
-lastUpdated: 2024-09-02T06:44:11.268Z
+status: up
+code: 200
+responseTime: 59
+lastUpdated: 2024-09-02T07:25:59.447Z
 startTime: 2024-08-25T04:08:48.559Z
 generator: Upptime <https://github.com/upptime/upptime>
