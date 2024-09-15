@@ -1,7 +1,7 @@
 url: https://controld-network-api.ncprelief.eu.org?iata_code=SCL&status=api
-status: down
-code: 503
-responseTime: 120
-lastUpdated: 2024-09-15T04:36:53.293Z
+status: up
+code: 200
+responseTime: 128
+lastUpdated: 2024-09-15T05:44:39.972Z
 startTime: 2024-08-25T04:08:41.667Z
 generator: Upptime <https://github.com/upptime/upptime>
