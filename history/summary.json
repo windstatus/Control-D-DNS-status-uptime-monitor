@@ -1175,19 +1175,19 @@
     "url": "https://controld-network-api.ncprelief.eu.org?iata_code=SCL&status=api",
     "icon": "https://icons.duckduckgo.com/ip3/controld-network-api.ncprelief.eu.org.ico",
     "slug": "scl-api",
-    "status": "down",
-    "uptime": "99.82%",
-    "uptimeDay": "96.18%",
-    "uptimeWeek": "99.45%",
-    "uptimeMonth": "99.82%",
-    "uptimeYear": "99.82%",
-    "time": 104,
-    "timeDay": 93,
-    "timeWeek": 97,
-    "timeMonth": 104,
-    "timeYear": 104,
+    "status": "up",
+    "uptime": "99.78%",
+    "uptimeDay": "95.29%",
+    "uptimeWeek": "99.33%",
+    "uptimeMonth": "99.78%",
+    "uptimeYear": "99.78%",
+    "time": 105,
+    "timeDay": 104,
+    "timeWeek": 100,
+    "timeMonth": 105,
+    "timeYear": 105,
     "dailyMinutesDown": {
-      "2024-09-15": 55
+      "2024-09-15": 68
     }
   },
   {
@@ -1195,19 +1195,19 @@
     "url": "https://controld-network-api.ncprelief.eu.org?iata_code=SCL&status=dns",
     "icon": "https://icons.duckduckgo.com/ip3/controld-network-api.ncprelief.eu.org.ico",
     "slug": "scl-dns",
-    "status": "down",
-    "uptime": "99.82%",
-    "uptimeDay": "96.18%",
-    "uptimeWeek": "99.45%",
-    "uptimeMonth": "99.82%",
-    "uptimeYear": "99.82%",
-    "time": 104,
-    "timeDay": 95,
-    "timeWeek": 102,
-    "timeMonth": 104,
-    "timeYear": 104,
+    "status": "up",
+    "uptime": "99.78%",
+    "uptimeDay": "95.29%",
+    "uptimeWeek": "99.33%",
+    "uptimeMonth": "99.78%",
+    "uptimeYear": "99.78%",
+    "time": 105,
+    "timeDay": 106,
+    "timeWeek": 105,
+    "timeMonth": 105,
+    "timeYear": 105,
     "dailyMinutesDown": {
-      "2024-09-15": 55
+      "2024-09-15": 68
     }
   },
   {
