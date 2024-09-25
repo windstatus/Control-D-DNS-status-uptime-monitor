@@ -1,7 +1,7 @@
 url: https://controld-network-api.ncprelief.eu.org?iata_code=MIA&status=pxy
-status: up
-code: 200
-responseTime: 162
-lastUpdated: 2024-09-24T23:21:52.868Z
+status: down
+code: 404
+responseTime: 133
+lastUpdated: 2024-09-25T14:56:23.383Z
 startTime: 2024-08-25T04:08:37.402Z
 generator: Upptime <https://github.com/upptime/upptime>
