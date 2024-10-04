@@ -1,7 +1,7 @@
 url: https://controld-network-api.ncprelief.eu.org?iata_code=NRT&status=pxy
-status: down
-code: 404
-responseTime: 139
-lastUpdated: 2024-10-03T23:22:56.694Z
+status: up
+code: 200
+responseTime: 125
+lastUpdated: 2024-10-04T17:41:55.947Z
 startTime: 2024-08-25T04:08:38.473Z
 generator: Upptime <https://github.com/upptime/upptime>
