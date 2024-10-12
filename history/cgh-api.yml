@@ -1,7 +1,7 @@
 url: https://controld-network-api.ncprelief.eu.org?iata_code=CGH&status=api
-status: up
-code: 200
-responseTime: 143
-lastUpdated: 2024-10-11T23:21:18.234Z
+status: down
+code: 503
+responseTime: 37
+lastUpdated: 2024-10-12T02:06:25.437Z
 startTime: 2024-08-25T04:08:21.206Z
 generator: Upptime <https://github.com/upptime/upptime>
