@@ -1,7 +1,7 @@
 url: https://controld-network-api.ncprelief.eu.org?iata_code=SEA&status=api
-status: down
-code: 503
-responseTime: 112
-lastUpdated: 2024-10-22T22:10:52.053Z
+status: up
+code: 200
+responseTime: 65
+lastUpdated: 2024-10-22T22:33:24.967Z
 startTime: 2024-08-25T04:08:42.351Z
 generator: Upptime <https://github.com/upptime/upptime>
